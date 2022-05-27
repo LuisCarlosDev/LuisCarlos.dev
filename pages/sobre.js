@@ -17,7 +17,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Sobre // Luis',
     description:
-      "Me chamo Luis Carlos, mas pode me chamar de Luis/Lu ✌🏻.",
+      "Me chamo Luis Carlos, mas pode me chamar de Luis/LC ✌🏻.",
     tagline: 'Sobre mim.',
     image: 'https://raw.githubusercontent.com/birobirobiro/birobirobiro.dev/572ce4534386893e3c064da603745a68ea4cb051/.github/image.png',
     primaryColor: 'cyan',
