@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['Move.it', 'Rentx Api', 'Rentx App']
+    const featured = []
 
     return items
       .map(item => {
@@ -81,9 +81,12 @@ function Projects(props) {
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
         <h2>Projetos Populares</h2>
+
+        <span>Estou criando novos projetos, para poder publicar</span>
         <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
 
         <h2>Todos Projetos</h2>
+        <span>Estou criando novos projetos, para poder publicar</span>
         {renderAll()}
       </AnimateSharedLayout>
     </>
