@@ -11,6 +11,18 @@ const items = [
       }, */
     ],
   },
+  {
+    year: '2023',
+    projects: [
+      {
+        title: 'RS/XP APP',
+        description: 'O maior evento presencial da Rocketseat de inovação e tecnologia.',
+        url: 'https://github.com/LuisCarlosDev/rsxp-2023',
+        icon: 'git-repository',
+        active: true,
+      },
+    ]
+  }
 ]
 
 export default items

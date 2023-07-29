@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = []
+    const featured = ['RS/XP']
 
     return items
       .map(item => {
@@ -82,11 +82,9 @@ function Projects(props) {
 
         <h2>Projetos Populares</h2>
 
-        <span>Estou criando novos projetos, para poder publicar</span>
         <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
 
         <h2>Todos Projetos</h2>
-        <span>Estou criando novos projetos, para poder publicar</span>
         {renderAll()}
       </AnimateSharedLayout>
     </>
@@ -99,8 +97,9 @@ function ProjectItem(props) {
   return (
     <li>
       <a href={project.url} target="_blank">
-        {project.title}
+        {project.title}:
       </a>
+      <span>{' '}{project.description}</span>
     </li>
   )
 }
